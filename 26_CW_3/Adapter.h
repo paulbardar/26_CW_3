@@ -15,6 +15,6 @@ class Adapter
 public:
 	Adapter(string interfaceInfo, float price, double speed);
 
-	void shoInfo()const;
+	void showInfo()const;
 };
 
