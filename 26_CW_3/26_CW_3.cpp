@@ -14,6 +14,7 @@ int main()
 
     for (auto item = admin.begin(); item != admin.end(); item++) {
         item->showInfo();
+        cout << "===================" << endl;
     }
  
     return 0;
