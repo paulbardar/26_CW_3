@@ -16,5 +16,7 @@ public:
 	Adapter(string interfaceInfo, float price, double speed);
 
 	void showInfo()const;
+
+	static int getCount();
 };
 

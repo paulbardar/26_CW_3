@@ -16,6 +16,8 @@ int main()
         item->showInfo();
         cout << "===================" << endl;
     }
+
+    cout << "Total adapters: " << Adapter::getCount() << "\n";
  
     return 0;
 }

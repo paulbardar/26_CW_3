@@ -18,3 +18,8 @@ void Adapter::showInfo() const
 	cout << "Price: " << price << endl;
 
 }
+
+int Adapter::getCount()
+{
+	return count - 1;
+}
